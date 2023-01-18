@@ -1,15 +1,20 @@
 #include <stdio.h>
-#include <string.h> // 문자열을 다룰 수 있는 string.h 헤더 파일 포함
+#include <string.h> // 문자열 관련 함수 원형을 모아놓은 헤더 파일
 
 int main(void)
 {
-    char fruit[20] = "strawberry"; // strawberry로 초기화
+    char str1[80] = "cat";
+    char str2[80];
 
-    printf("%s\n", fruit);   // strawberry 출력
-    strcpy(fruit, "banana"); // fruit에 banana 복사
-    printf("%s\n", fruit);   // banana 출력
+    strcpy(str1, "tiger"); // str1 배열에 "tiger" 복사
+    strcpy(str2, str1);    // str2 배열에 str1 배열의 문자 복사
+    printf("%s, %s\n", str1, str2);
 
     return 0;
-    //   1. strcpy 함수는 string.h 헤더파일을 필수적으로 필요로한다. p.440을 참고하면 된다.
-    //   2. strcpy 함수에 의해 strawbery가 있는 주소로 찾아간 후, banana\0까지 입력하면 남은 erry가 있을 것이다.
 }
+
+/*
+strcpy(저장될 배열명, 저장할 문자열)
+이를 통해 10행에서는 str2에 str1을 넣는다는 것을 알 수 있다.
+선행된 9행에서 초기회된 str1배열에 tiger을 넣은 사실을 통해 출력값은 tiger,tiger이 나오게 된다.
+*/
