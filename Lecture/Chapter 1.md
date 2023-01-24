@@ -9,7 +9,7 @@
 
 → 내가 만든 파일을 git에게 관리해달라고 보내는 명령어이다.
 
-mac의 경우
+mac의 경우,
 
 <aside>
 💡 command + shift + .(마침표)
