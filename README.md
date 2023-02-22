@@ -1,5 +1,5 @@
 # iOS_Study
-숭실대 IT대생 5명이 모인 iOS 스터디.
+숭실대 IT대생 5명이 모인 iOS 스터디.Swift Mastero로 변경 예정!
 ![IMG_6100](https://user-images.githubusercontent.com/113027703/208634102-31593a40-8e5c-43e7-a360-c6a146efff8e.JPG)
 
 
