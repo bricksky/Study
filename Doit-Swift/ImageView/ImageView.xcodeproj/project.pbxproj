@@ -16,6 +16,8 @@
 		D308099929B6FD8F00F2204F /* ImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D308099829B6FD8F00F2204F /* ImageViewTests.swift */; };
 		D30809A329B6FD8F00F2204F /* ImageViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30809A229B6FD8F00F2204F /* ImageViewUITests.swift */; };
 		D30809A529B6FD8F00F2204F /* ImageViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D30809A429B6FD8F00F2204F /* ImageViewUITestsLaunchTests.swift */; };
+		D30809B329B6FE3500F2204F /* lamp_off.png in Resources */ = {isa = PBXBuildFile; fileRef = D30809B129B6FE3500F2204F /* lamp_off.png */; };
+		D30809B429B6FE3500F2204F /* lamp_on.png in Resources */ = {isa = PBXBuildFile; fileRef = D30809B229B6FE3500F2204F /* lamp_on.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		D308099E29B6FD8F00F2204F /* ImageViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D30809A229B6FD8F00F2204F /* ImageViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITests.swift; sourceTree = "<group>"; };
 		D30809A429B6FD8F00F2204F /* ImageViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		D30809B129B6FE3500F2204F /* lamp_off.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_off.png; sourceTree = "<group>"; };
+		D30809B229B6FE3500F2204F /* lamp_on.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lamp_on.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +107,8 @@
 				D308098329B6FD8E00F2204F /* SceneDelegate.swift */,
 				D308098529B6FD8E00F2204F /* ViewController.swift */,
 				D308098729B6FD8E00F2204F /* Main.storyboard */,
+				D30809B129B6FE3500F2204F /* lamp_off.png */,
+				D30809B229B6FE3500F2204F /* lamp_on.png */,
 				D308098A29B6FD8F00F2204F /* Assets.xcassets */,
 				D308098C29B6FD8F00F2204F /* LaunchScreen.storyboard */,
 				D308098F29B6FD8F00F2204F /* Info.plist */,
@@ -233,7 +239,9 @@
 			files = (
 				D308098E29B6FD8F00F2204F /* LaunchScreen.storyboard in Resources */,
 				D308098B29B6FD8F00F2204F /* Assets.xcassets in Resources */,
+				D30809B429B6FE3500F2204F /* lamp_on.png in Resources */,
 				D308098929B6FD8E00F2204F /* Main.storyboard in Resources */,
+				D30809B329B6FE3500F2204F /* lamp_off.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
