@@ -1,4 +1,4 @@
-package com.example.doit;
+package com.mysite.sbb;
 
 import jakarta.persistence.*;
 import org.hibernate.annotations.CreationTimestamp;
