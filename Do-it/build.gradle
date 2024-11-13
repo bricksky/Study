@@ -25,6 +25,8 @@ dependencies {
     developmentOnly 'org.springframework.boot:spring-boot-devtools'
     runtimeOnly 'com.h2database:h2'
     implementation 'org.springframework.boot:spring-boot-starter-data-jpa'
+    testImplementation 'org.junit.jupiter:junit-jupitor'
+    testRuntimeOnly 'org.junit.platform:junit-platform-launcher'
 
     // Lombok 라이브러리 추가
     compileOnly 'org.projectlombok:lombok:1.18.24'
