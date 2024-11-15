@@ -16,13 +16,19 @@ class SbbApplicationTests {
     @Autowired
     private QuestionRepository questionRepository;
 
+    @Autowired
+    private AnswerRepository answerRepository;
+
     @Test
     void testJpa() {
-      assertEquals(2, this.questionRepository.count());
-      Optional<Question> oq = this.questionRepository.findById(1);
-      assertTrue(oq.isPresent());
-      Question q = oq.get();
-      this.questionRepository.delete(q);
-      assertEquals(1, this.questionRepository.count());
+     Optional<Question> oq = this.questionRepository.findById(2);
+     assertTrue(oq.isPresent());
+     Question q = oq.get();
+
+     Answer a = new Answer();
+     a.setContent("네 자동으로 생성됩니다.");
+     a.setQuestion(q);
+     a.setCreateDate(LocalDateTime.now());
+     this.answerRepository.save(a);
     }
 }
